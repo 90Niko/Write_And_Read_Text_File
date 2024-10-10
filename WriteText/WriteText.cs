@@ -9,7 +9,6 @@ namespace WriteText
         {
             try
             {
-                // Open the file in append mode by passing 'true' as the second argument
                 StreamWriter sw = new StreamWriter("C:\\Users\\ngero\\OneDrive\\Dokumente\\Sample.txt", true);
 
                 Console.WriteLine("Enter a line of text to write to the file:");
